@@ -1,0 +1,40 @@
+.main-content-container {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+.main-content-container .tasks {
+  width: 400px;
+  margin: 10px;
+  min-width: 400px;
+}
+
+.main-content-container .tasks .eui-card-header {
+  justify-content: center;
+}
+
+.main-content-container .tasks .eui-card-header h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-container .tasks .task {
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.main-content-container .tasks .task .task-title {
+  border-bottom: 1px solid;
+}
+.main-content-container .tasks .task .task-title h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+.main-content-container .tasks .task .task-description {
+  margin-top: 5px;
+}
