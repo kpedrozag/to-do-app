@@ -33,7 +33,6 @@ class Task extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     const { index, title, description } = this.props;
     return (
       <React.Fragment>

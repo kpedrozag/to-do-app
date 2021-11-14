@@ -18,7 +18,6 @@ class App extends React.Component {
   }
 
   handleClickOption(value) {
-    console.log({ value });
     this.setState({ currentContent: value || 'main' });
   }
 
