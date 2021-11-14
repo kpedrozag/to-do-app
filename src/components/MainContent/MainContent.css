@@ -38,3 +38,10 @@
 .main-content-container .tasks .task .task-description {
   margin-top: 5px;
 }
+
+@media (max-width: 500px) {
+  .main-content-container .tasks {
+    width: 300px;
+    min-width: 300px;
+  }
+}
